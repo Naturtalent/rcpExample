@@ -6,11 +6,13 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="it.wp.rcpexample">
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
                name="applicationCSS"
                value="platform:/plugin/it.wp.rcpExample/css/default.css">
+         </property>
+         <property
+               name="appName">
          </property>
       </product>
    </extension>
